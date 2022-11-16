@@ -75,3 +75,20 @@ main {
 }
 
 /* Seu código aqui */
+
+@media screen and (max-width:768px)
+{
+.checkin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bedroom-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.obs {
+  width: 50%;
+}
+}
